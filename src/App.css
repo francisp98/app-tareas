@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  color: white;
+  background-color: #1b1b32;
+  font-family: lato, sans-serif;
+  margin-top: 5px;
+}
+
+h1 {
+  color: rgb(41, 40, 40);
+  font-size: 25px;
+  font-family: roboto, sans-serif;
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.aplicacion-tareas{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Logo de Olimi*/
+
+.olimi-logo-contenedor{
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.olimi-logo{
+  height: 100px;
+  transform: scale(4);
+  margin: 20px;
+}
+
+/*lista de tareas*/
+
+.tareas-lista-principal{
+  width: 600px;
+  min-height: 500px;
+  background-color: #d0d0d5;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 26px;
+
+}
