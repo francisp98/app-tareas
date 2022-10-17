@@ -1,6 +1,6 @@
 import './App.css';
 import logo from './img/Olimi.svg';
-import TareaFormulario from './component/tarea-formulario';
+import ListaDeTareas from './component/lista-tareas';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       </div>
       <div className='tareas-lista-principal'>
         <h1>Mis tareas</h1>
-        <TareaFormulario />
+        <ListaDeTareas />
       </div>
     </div>
   );
